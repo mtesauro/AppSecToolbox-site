@@ -1,0 +1,13 @@
+localhost:8888
+
+root ./site
+
+git {
+    repo https://github.com/mtesauro/AppSecToolbox-tools.git
+    path tools
+}
+
+markdown /tools/intake {
+    ext .md
+    template templates/intake.tpl
+}
